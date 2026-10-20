@@ -2021,6 +2021,11 @@ a.disabled {
 .propos_gallery {
   padding: 50px 0;
 }
+.propos_gallery .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .propos_gallery .gallerie1 {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
